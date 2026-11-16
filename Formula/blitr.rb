@@ -1,13 +1,14 @@
 class Blitr < Formula
   desc "Render SwiftUI previews to PNG without a simulator"
   homepage "https://github.com/Sam-Apostel/blitr"
-  version "1.0.1"
+  version "1.1.0"
+  license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/Sam-Apostel/blitr/releases/download/v1.0.1/blitr-v1.0.1-macos-arm64.tar.gz"
-    sha256 "9793a8b27d8b85ae72c52003b1500d8abf4ac4514ee23d5b69663c3411b05957"
+    url "https://github.com/Sam-Apostel/blitr/releases/download/v1.1.0/blitr-v1.1.0-macos-arm64.tar.gz"
+    sha256 "d3faf8ea657a593e1092c8115783035351047c8a151685f8ff2c886e5a0926e3"
   end
 
   def install
